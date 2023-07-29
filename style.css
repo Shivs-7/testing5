@@ -1,0 +1,208 @@
+/*navigaotr bar background color--*/
+.navbar{
+    background-color:#5F9EA0;
+    font-style: italic;
+}
+/*Floating letf all the navigator bar content*/
+.navbar ul{
+    margin-top:-10px;  
+    overflow:auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;/*With this we r able to remove bullet points*/  
+    margin:20px 20px;
+   
+}
+.navbar li a{
+    text-decoration: none;
+    padding:  3px 3px;
+    color: white;
+}
+.search{
+    float: right;
+  padding: 12px 10px;
+}
+.navbar input{
+     border-radius:20px ;
+     border: 5px solid black;
+     padding: 10px;
+     text-align: center;
+}
+.imaage{
+    margin-top:-16px;
+    width: 1650px; 
+}
+.Sticker{
+ float: left;
+}
+.main{
+    margin:-15px;
+    padding:0px 15px;
+}
+.videos{
+    margin:50px;
+}
+.videos p{
+    margin-top: -60px;
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: 55px;
+    color: #333!important;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+.videos video{
+    
+    margin:-60px;
+}
+.News{
+ text-align: center;
+ font: italic small-caps bold 16px/2 cursive;
+    font-size: 55px;
+    color: #333!important;
+    font-weight: normal;
+    letter-spacing: 0.5px
+}
+.News p{
+    margin-top: 100px;
+}
+.newsfloat img{
+    margin-left: 220px;
+   width:350px;
+   height: 300px;
+}
+.cate{
+   font-family:"Lucida Console", "Courier New", monospace;
+   margin-left: 220px;
+}
+.title{
+    font-family:"Lucida Console", "Courier New", monospace;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+.cate a{
+    text-decoration:none;
+}
+.title a{
+    text-decoration: none;
+}
+.image2{
+    margin-top: -378px;
+    margin-left: 600px;
+}
+.cate2{
+    font-weight: normal;
+    font-family:"Lucida Console", "Courier New", monospace;
+    margin: 15px 602px;
+}
+.title2{
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 15px 601px;
+
+}
+.cate2 a{
+ text-decoration: none;
+}
+.title2 a{
+    text-decoration: none;
+}
+.image3{
+    margin-top: -382px;
+    margin-left: 980px;
+}
+.cate3{
+    font-family:"Lucida Console", "Courier New", monospace;
+    margin: 14px 980px;
+}
+.title3{
+font-family: "Lucida Console", "Courier New", monospace;
+margin: 14px 980px;
+}
+.cate3 a{
+    text-decoration: none;
+}
+.title3 a{
+ text-decoration: none;
+}
+.patchnote1{
+ font:  italic small-caps bold 16px/2 cursive;
+ font-weight: normal;
+}
+.viewMore button{
+    text-align: center;
+}
+.bannerContent h1{
+  position:absolute;
+  top: 2680px;
+  left: 20px;
+ font-size: 40px;
+ width:1000px;
+  color:#00324d;
+}
+.bannerContent h4{
+    position:absolute;
+    top: 2750px;
+  left: 20px;
+  font-size: 18px;
+  width: 600px;
+  font-style: italic;
+  color:#00324d;
+}
+*{
+    padding: 0;
+    margin-:top:10px;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width:100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display:flex;
+    justify-content: center;
+}
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: #111;
+    opacity: 0.9;
+}
+/* Hover effects on Social Media Icons */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1,3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
